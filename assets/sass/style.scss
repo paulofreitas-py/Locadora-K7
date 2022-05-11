@@ -1,0 +1,19 @@
+@import 'style_cadastro';
+@import 'style_cadastroSucesso';
+@import 'style_contatenos';
+@import 'style_index';
+@import 'style_login';
+
+body {
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        cursor: pointer;
+        color: deepskyblue;
+    }
+}

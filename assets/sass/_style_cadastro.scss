@@ -40,9 +40,9 @@
     color: white;
     font-size: 15px;
     color: white;
-}
 
-.botaoCadastro:hover {
-    background-color: deepskyblue;
-    cursor: pointer;
+    &:hover {
+        background-color: deepskyblue;
+        cursor: pointer;
+    }
 }
