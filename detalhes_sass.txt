@@ -1,0 +1,5 @@
+autoload = libliotecas externas ,folhas de estilo de terceiros
+common = arquivo em comum ,bases gerais ,variaveis de cores 
+componets = botoes,etc;
+layout = layout geral do site
+pages = cada pagina do site

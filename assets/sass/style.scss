@@ -1,19 +1,5 @@
-@import 'style_cadastro';
-@import 'style_cadastroSucesso';
-@import 'style_contatenos';
-@import 'style_index';
-@import 'style_login';
-
-body {
-    background-color: darkblue;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.links {
-    text-decoration: none;
-    color: white;
-    &:hover {
-        cursor: pointer;
-        color: deepskyblue;
-    }
-}
+@use"autoload/glob" as autoload;
+@use "common/glob" as common;
+@use "components/glob" as components;
+@use "layout/glob" as layout;
+@use "pages/glob" as pages;
