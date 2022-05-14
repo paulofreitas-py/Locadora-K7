@@ -4,45 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style_index.css">
-
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <title>Locadora-K7</title>
 </head>
 <body>
-    <div class="header">
+    <!--
+    */
+    <header class="header__cabecalho">
         <h1>Locadora-K7</h1>
-        <img src="img/logo.png" alt="logo" width="9%">
-        <nav class="navbar">
+        <img srcset="assets/img/logo.png 629w" class="header__cabecalho__logo" sizes="9vw">
+        <nav class="header__cabecalho__navbar">
             <ul>
-                <a href="cadastro.html" class="links">
-                    <li>Cadastre-se</li>
-                </a>
-                <a href="" class="links">
-                    <li>Sobre o site</li>
-                </a>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="#" class="links">Sobre o site</a></li>
             </ul>
         </nav>
-    </div>
+    </header>-->
 
     <main>
-        <div class="login">
-            <h1>
-                Bem vindo!
-            </h1>
-            <p class="texto">Selecione a opção que deseja fazer o login</p><br>
-            <a href="clienteLogin.html" class="links">
-                <button class="botaoLogin">Cliente</button>
-            </a><br><br>
-            <a href="admLogin.html" class="links">
-                <button class="botaoLogin">Administrador</button>
-            </a>
+        <div class="main__login">
+            <div class="left__login">
+                <h1>Bem vindo !</h1>
+                <img src="assets/img/movie-night-animate.svg" alt="gif do site">
+            </div>
+            <div class="right__login">
+                <div class="card__login">
+                    <h1>Login</h1>
+                    <div class="textfild">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuário">
+                    </div>
+                    <div class="textfild">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="senha">
+                    </div>
+                    <button class="btn__login">Login</button>
+                </div>
+            </div>
         </div>
     </main>
 </body>

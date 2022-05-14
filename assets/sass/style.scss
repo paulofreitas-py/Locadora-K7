@@ -1,5 +1,5 @@
-@use"autoload/glob" as autoload;
-@use "common/glob" as common;
-@use "components/glob" as components;
-@use "layout/glob" as layout;
-@use "pages/glob" as pages;
+@charset 'UTF-8';
+
+@forward "layout/glob" as layout-*;
+@forward "components/glob" as components-*;
+@forward "pages/glob" as pages-*;

@@ -1,5 +1,112 @@
-@use "autoload/glob" as autoload;
-@use "common/glob" as common;
-@use "components/glob" as components;
-@use "layout/glob" as layout;
-@use "pages/glob" as pages;
+/*base*/
+/*login*/
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html body {
+  background-color: #93d5f3;
+}
+html body a {
+  color: white;
+}
+html body a:hover {
+  color: deepskyblue;
+}
+html body a:focus {
+  color: deepskyblue;
+}
+
+.main__login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__login .left__login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__login .left__login > h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.main__login .left__login > img {
+  width: 70%;
+}
+.main__login .right__login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.main__login .right__login .card__login {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background-color: rgb(58, 111, 229);
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 86, 0.4392156863);
+}
+.main__login .right__login .card__login > h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+.main__login .right__login .card__login .textfild {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.main__login .right__login .card__login .textfild > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9fa;
+  color: black;
+  font-size: 0.9rem;
+  box-shadow: 0px 10px 40px rgba(50, 50, 253, 0.5882352941);
+  outline: none;
+  box-sizing: border-box;
+}
+.main__login .right__login .card__login .textfild > input::placeholder {
+  color: #1c2222;
+}
+.main__login .right__login .card__login .textfild > label {
+  color: rgba(240, 255, 255, 0.8705882353);
+  margin-bottom: 10px;
+}
+.main__login .right__login .card__login .btn__login {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  color: black;
+  background-color: rgb(251, 255, 255);
+  cursor: pointer;
+  box-shadow: 0 10px 40px -12px rgba(0, 255, 128, 0.3215686275);
+}
+
+/*# sourceMappingURL=style.css.map */
