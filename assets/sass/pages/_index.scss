@@ -19,14 +19,14 @@
         > {
             h1{
                 color: white;
-                text-shadow: 1px 1px 2px black ;
+                text-shadow: 1px 1px 10px black ,-1px -1px 10px black ;
             }
             h2 {
                 text-align: center;
                 text-transform: capitalize;
                 color:abstracts.$colors-title-login;
                 font-weight: bolder;
-                text-shadow: 1px 1px 2px black ;
+                text-shadow: 1px 1px 10px black ,-1px -1px 10px black ;
             }
             img {
                 width:70%;
