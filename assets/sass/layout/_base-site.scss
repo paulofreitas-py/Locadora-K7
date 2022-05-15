@@ -1,5 +1,6 @@
 @charset 'UTF-8';
-@use "../abstracts/colors" as cor;
+@use "../abstracts/glob" as colors;
+@use "../components/forms" as forms;
 
 * {
     list-style: none;
@@ -12,7 +13,7 @@
 html {
 
     body {
-      background-color: cor.$primary;
+      background-color: colors.$colors-primary;
       a {
         color: white;
         &:hover{

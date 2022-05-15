@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@use "../abstracts/glob" as abstracts;
+
+@forward "../layout/base-site";
+
+.main__login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__left{
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        > {
+            h1{
+                color: white;
+                text-shadow: 1px 1px 2px black ;
+            }
+            h2 {
+                text-align: center;
+                text-transform: capitalize;
+                color:abstracts.$colors-title-login;
+                font-weight: bolder;
+                text-shadow: 1px 1px 2px black ;
+            }
+            img {
+                width:70%;
+            }
+        } 
+    }//final left__login
+    &__right {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        &__card {
+                h1{
+                    text-align: center;
+                    text-transform: capitalize;
+                    color:abstracts.$colors-title-login;
+                    font-weight: bolder;
+                }
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px 35px;
+            background-color: abstracts.$colors-card-login;
+            border-radius: 20px;
+            box-shadow: 0px 10px 40px #00005670;
+            
+            &__textfild {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                margin: 10px 0px;
+                > {
+                    input {
+                        width: 100%;
+                        border: none;
+                        border-radius: 10px;
+                        padding: 15px;
+                        background-color: #f9f9fa;
+                        color: black;
+                        font-size: .9rem;
+                        box-shadow: 0px 10px 40px #3232fd96;
+                        outline: none;
+                        box-sizing: border-box;
+                        &::placeholder {
+                            color: #1c2222;
+                        }
+                    }
+                    label {
+                        color: #f0ffffde;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            &__btn {
+                width: 100%;
+                padding: 16px 0px;
+                margin: 25px 0;
+                border:none;
+                border-radius: 8px;
+                outline: none;
+                background-color: abstracts.$colors-btn-login;
+                cursor: pointer;
+                &:hover {
+                    color: dodgerblue;
+                }
+                
+            }
+        }
+        }//final right__login
+}

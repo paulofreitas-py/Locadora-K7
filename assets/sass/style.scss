@@ -1,5 +1,3 @@
 @charset 'UTF-8';
 
-@forward "layout/glob" as layout-*;
-@forward "components/glob" as components-*;
-@forward "pages/glob" as pages-*;
+@forward "pages/glob";
