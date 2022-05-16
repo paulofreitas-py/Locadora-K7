@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @use "../abstracts/glob" as abstracts;
-
+@use "../components/glob" as components;
 @forward "../layout/base-site";
 
 .main__login {
@@ -87,18 +87,30 @@
                 }
             }
             &__btn {
-                width: 100%;
                 padding: 16px 0px;
                 margin: 25px 0;
                 border:none;
                 border-radius: 8px;
                 outline: none;
-                background-color: abstracts.$colors-btn-login;
+                background-color: white;
+                @include components.buttons-button(abstracts.$colors-btn-login,100%);
                 cursor: pointer;
                 &:hover {
                     color: dodgerblue;
                 }
                 
+            }
+        }//final card
+        &__cadastrar {
+            p {
+                color:white;
+            }
+            a {
+                color:black;
+                &:hover {
+                    color:darkblue;
+                    text-decoration: underline;
+                }
             }
         }
         }//final right__login

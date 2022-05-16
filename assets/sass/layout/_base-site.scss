@@ -1,28 +1,30 @@
 @charset 'UTF-8';
-@use "../abstracts/glob" as colors;
-@use "../components/forms" as forms;
+@use "../abstracts/glob"as abstracts;
+@use "../components/forms"as forms;
 
 * {
-    list-style: none;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
+
 html {
 
-    body {
-      background-color: colors.$colors-primary;
-      background-image: linear-gradient(to right, rgb(51, 51, 219), cyan); 
-      a {
-        color: white;
-        &:hover{
-            color: deepskyblue;
+  body {
+    background-color: abstracts.$colors-primary;
+    background-image: linear-gradient(to right, rgb(51, 51, 219), cyan);
+
+       a {
+        color: black;
+        &:hover {
+          color: red;
         }
         &:focus {
-            color: deepskyblue;
+          color: red;
         }
-      }
     }
+  }
 }

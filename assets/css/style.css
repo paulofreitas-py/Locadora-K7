@@ -17,13 +17,13 @@ html body {
   background-image: linear-gradient(to right, rgb(51, 51, 219), cyan);
 }
 html body a {
-  color: white;
+  color: black;
 }
 html body a:hover {
-  color: deepskyblue;
+  color: red;
 }
 html body a:focus {
-  color: deepskyblue;
+  color: red;
 }
 
 .main__login {
@@ -108,17 +108,29 @@ html body a:focus {
   margin-bottom: 10px;
 }
 .main__login__right__card__btn {
-  width: 100%;
   padding: 16px 0px;
   margin: 25px 0;
   border: none;
   border-radius: 8px;
   outline: none;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
+  color: rgb(0, 0, 0);
+  height: auto;
+  width: 100%;
   cursor: pointer;
 }
 .main__login__right__card__btn:hover {
   color: dodgerblue;
+}
+.main__login__right__cadastrar p {
+  color: white;
+}
+.main__login__right__cadastrar a {
+  color: black;
+}
+.main__login__right__cadastrar a:hover {
+  color: darkblue;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
