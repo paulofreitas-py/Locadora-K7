@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_funcionario.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Cadastrar Funcionário - Locadora-K7</title>
+</head>
+<body>
+    <div class="headerFuncionario">
+        <h1>Locadora-K7</h1>
+        <img src="img/logo.png" alt="logo" width="9%">
+    </div>
+    <div class="formFuncionario1">
+        <h1>Cadastrar novo funcionário</h1>
+        <form>
+            <label for="numCad">Número de Cadastro: </label>
+            <input type="text" class="inputFuncionario" name="numCad" required><br><br>
+            <label for="nome">Nome Completo: </label>
+            <input type="text" class="inputFuncionario" name="nome" required><br><br>
+            <label for="cpf">CPF: </label>
+            <input 
+            type="text" class="inputFuncionario" name="cpf" data-mask="123.456.789-10"
+            maxlength="10" autocomplete="off" required><br><br>
+            <label for="idade">Idade: </label>
+            <input type="number" min="18" class="inputFuncionario" name="idade" required><br><br>
+            <label for="foto">Foto do funcionário: </label>
+            <input type="file" class="inputFuncionario" name="foto" accept="image/png, image/jpeg, image/jpg"><br><br>
+            Cargo:
+            <select class="inputFuncionario" required>
+                <option value="1">Gestor</option>
+                <option value="2">Contabilidade</option>
+                <option value="3">Informática</option>
+                <option value="4">Serviços Gerais</option>
+            </select>
+        </form>
+        <br><br>
+        <a href="" class="links">
+            <button class="botaoFuncionario" onclick="alert('Funcioário Cadastrado')">
+                Cadastrar
+            </button>
+        </a><br><br>
+        <a href="admIndex.html" class="links">
+            <button class="botaoFuncionario">
+                Voltar
+            </button>
+        </a>
+    </div>
+</body>
+</html>

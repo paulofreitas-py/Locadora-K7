@@ -1,0 +1,47 @@
+.headerTitulo {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formularioTitulo {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3.5%;
+    border-radius: 15px;
+    color: white;
+}
+
+.inputTitulo {
+    width: 50%;
+    padding: 2.5px;
+    font: 3px;
+}
+
+.botaoTitulo {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    color: white;
+}
+
+.botaoTitulo:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}

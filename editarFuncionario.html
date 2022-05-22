@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_funcionario.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Editar Funcionário - Locadora-K7</title>
+</head>
+<body>
+    <div class="headerFuncionario">
+        <h1>Locadora-K7</h1>
+        <img src="img/logo.png" alt="logo" width="9%">
+    </div>
+    <div class="formFuncionario2">
+        <h1>Editar funcionário cadastrado</h1>
+        <form>
+            <label for="nome">Nome Completo: </label>
+            <input type="text" class="inputFuncionario" name="nome"><br><br>
+            <label for="cpf">CPF: </label>
+            <input 
+            type="text" class="inputFuncionario" name="cpf" data-mask="123.456.789-10"
+            maxlength="10" autocomplete="off"><br><br>
+            <label for="idade">Idade: </label>
+            <input type="number" min="18" class="inputFuncionario" name="idade"><br><br>
+            <label for="foto">Foto do funcionário: </label>
+            <input type="file" class="inputFuncionario" name="foto" accept="image/png, image/jpeg, image/jpg"><br><br>
+            Mudança de posto: 
+            <select class="inputFuncionario">
+                <option value="1">Manter cargo</option>
+                <option value="2">Promoção</option>
+                <option value="3">Demoção</option>
+            </select>
+        </form>
+        <br><br>
+        <a href="" class="links">
+            <button class="botaoFuncionario" onclick="alert('Funcionário Editado')">
+                Editar
+            </button>
+        </a><br><br>
+        <a href="admIndex.html" class="links">
+            <button class="botaoFuncionario">
+                Voltar
+            </button>
+        </a>
+    </div>
+</body>
+</html>

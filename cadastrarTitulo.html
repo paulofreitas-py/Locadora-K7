@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_titulo.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Cadastrar título - Locadora-K7</title>
+</head>
+<body>
+    <div class="headerTitulo">
+        <h1>Locadora-K7</h1>
+        <img src="img/logo.png" alt="logo" width="9%">
+    </div>
+    <div class="formularioTitulo">
+        <h1>Cadastrar um novo filme</h1>
+        <form>
+            <label for="numCadTitulo">Número de cadastro: </label>
+            <input type="text" class="inputTitulo" name="numCadTitulo" required><br><br>
+            <label for="nomeFilm">Nome do filme: </label>
+            <input type="text" class="inputTitulo" name="nomeFilm" required><br><br>
+            Classificação Indicativa:
+            <select class="inputTitulo" required>
+                <option value="1">Livre</option>
+                <option value="2">10 anos</option>
+                <option value="3">12 anos</option>
+                <option value="4">14 anos</option>
+                <option value="5">16 anos</option>
+                <option value="6">18 anos</option>
+            </select><br><br>
+            Gênero do título:
+            <select class="inputTitulo" required>
+                <option value="1">Ação</option>
+                <option value="2">Aventura</option>
+                <option value="3">Biográfico</option>
+                <option value="4">Comédia</option>
+                <option value="5">Comédia Romântica</option>
+                <option value="6">Drama</option>
+                <option value="7">Fantasia</option>
+                <option value="8">Ficção Científica</option>
+                <option value="9">Histórico</option>
+                <option value="10">Musical</option>
+                <option value="11">Romance</option>
+                <option value="12">Terror</option>
+                <option value="13">Outro</option>
+            </select><br><br>
+            Opção do título: 
+            <select class="inputTitulo" required>
+                <option value="1">Filme</option>
+                <option value="2">Série</option>
+                <option value="3">Documentário</option>
+            </select>
+        </form>
+        <br><br>
+        <a href="" class="links">
+            <button class="botaoTitulo" onclick="alert('Título Cadastrado')">
+                Cadastrar
+            </button>
+        </a><br><br>
+        <a href="admIndex.html" class="links">
+            <button class="botaoTitulo">
+                Voltar
+            </button>
+        </a>
+    </div>
+</body>
+</html>
