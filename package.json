@@ -1,0 +1,19 @@
+{
+  "name": "locadora-k7",
+  "version": "1.0.0",
+  "description": "Um sistema de locadora online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccofg-labs/Locadora-K7.git"
+  },
+  "author": "Diego Leonardo da Silva França",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccofg-labs/Locadora-K7/issues"
+  },
+  "homepage": "https://github.com/ccofg-labs/Locadora-K7#readme"
+}
