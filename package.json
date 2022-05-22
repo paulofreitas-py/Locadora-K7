@@ -4,6 +4,7 @@
   "description": "Um sistema de locadora online",
   "main": "index.js",
   "scripts": {
+    "sass": "sass --watch public/sass/style.scss:public/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ccofg-labs/Locadora-K7/issues"
   },
-  "homepage": "https://github.com/ccofg-labs/Locadora-K7#readme"
+  "homepage": "https://github.com/ccofg-labs/Locadora-K7#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "node-sass": "^7.0.1",
+    "save": "^2.5.0"
+  }
 }
