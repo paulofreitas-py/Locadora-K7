@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@use "sass:color";
+@mixin set-color($cor1) {
+    color: white;
+        
+}
+
+/*base*/
+$primary : #93d5f3;
+$a: black;
+$a-hover:blue;
+
+/*login*/
+$btn-login: rgb(0, 0, 0);
+$btn-login-hover :red;
+$card-login: rgb(58, 111, 229);
+$title-login: rgb(255, 255, 255);

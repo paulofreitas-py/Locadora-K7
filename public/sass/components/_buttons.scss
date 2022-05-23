@@ -1,0 +1,5 @@
+@mixin button($cor,$width:auto,$height:auto) {
+    color:$cor;
+    height: $height;
+    width: $width;
+}
