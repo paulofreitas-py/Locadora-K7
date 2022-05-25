@@ -14,7 +14,7 @@ form {
 
 html body {
   background-color: #93d5f3;
-  background-image: linear-gradient(to right, rgb(51, 51, 219), cyan);
+  background-image: linear-gradient(cyan);
 }
 html body a {
   color: black;
@@ -131,6 +131,74 @@ html body a:focus {
 .main__login__right__cadastrar a:hover {
   color: darkblue;
   text-decoration: underline;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 15vw auto auto auto auto auto auto;
+  background-color: white;
+  font-size: 20px;
+  height: 10vh;
+}
+.header .logo {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  align-items: center;
+}
+.header .logo figure img {
+  width: 100px;
+  height: 50px;
+}
+.header .search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 5;
+  background-color: transparent;
+}
+.header .search-box input {
+  height: 25px;
+  width: 70%;
+}
+.header .search-box .fa-magnifying-glass {
+  padding-left: 5px;
+}
+.header .perfil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+
+.container__home {
+  display: grid;
+  grid-template-columns: auto;
+}
+.container__home__lateral {
+  color: black;
+}
+.container__home__principal {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.container__home__principal__card {
+  margin-top: 60px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 15px 15px 40px;
+  height: 450px;
+}
+.container__home__principal__card .photo {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+.container__home__principal__card__preco {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
