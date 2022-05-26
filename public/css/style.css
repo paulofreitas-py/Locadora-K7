@@ -171,34 +171,69 @@ html body a:focus {
   background-color: transparent;
 }
 
-.container__home {
-  display: grid;
-  grid-template-columns: auto;
+.rodape {
+  margin-top: 20px;
 }
+.rodape__sobre-o-site {
+  background-color: rgb(174, 247, 247);
+  padding-left: 200px;
+}
+.rodape__sobre-o-site ul li {
+  padding: 2px 0;
+}
+.rodape__sobre-o-site ul li a {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.rodape__direitos-reservados {
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  padding: 10px 0;
+  text-align: center;
+  height: 3vh;
+  text-transform: uppercase;
+}
+
 .container__home__lateral {
   color: black;
 }
 .container__home__principal {
   margin: auto;
   max-width: 1000px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  display: flex;
+  flex-flow: row wrap;
 }
 .container__home__principal__card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  height: 600px;
   margin-top: 60px;
   box-sizing: border-box;
   background-color: white;
   padding: 15px 15px 40px;
   height: 450px;
+  box-shadow: 1px 1px 1px black;
 }
 .container__home__principal__card .photo {
   width: 100%;
-  height: 290px;
+  height: 60%;
   object-fit: cover;
 }
 .container__home__principal__card__preco {
+  font-size: 20px;
   text-transform: uppercase;
+}
+.container__home__principal__card .btn-preco {
+  color: white;
+  text-shadow: 0 0 3px black;
+  background-color: #9595fd;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
