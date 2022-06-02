@@ -4,6 +4,9 @@
 ![License](https://img.shields.io/badge/UNIFG-Práticas%20de%20Engenharia%20de%20Software-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-Práticas%20de%20Banco%20de%20Dados-blue.svg)
 
+<h1 align="center">
+<img src="https://github.com/ccofg-labs/Locadora-K7/blob/main/public/img/logo.png?raw=true" width="1200" />
+
 ## Projeto para a disciplina de Práticas de Engenharia de Software
 
 # Descrição
