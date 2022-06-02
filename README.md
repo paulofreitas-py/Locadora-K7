@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/UNIFG-Práticas%20de%20Engenharia%20de%20Software-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-Práticas%20de%20Banco%20de%20Dados-blue.svg)
 
-# Projeto para a disciplina de Práticas de Engenharia de Software
+## Projeto para a disciplina de Práticas de Engenharia de Software
 
 # Descrição
 usado metologia BEM e pré-processador SASS
