@@ -16,13 +16,13 @@
                 <h1 class="white-text">Login</h1>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="email" type="email" class="validate white-text">
+                        <input id="email" type="email" class="validate white-text" required>
                         <label class="white-text" for="email">Email</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="password" type="password" class="validate white-text">
+                        <input id="password" type="password" class="validate white-text" required>
                         <label class="white-text" for="password">Password</label>
                     </div>
                 </div>
