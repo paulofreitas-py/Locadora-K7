@@ -2,18 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include "./partials/cabecalho.php" ?>
-    <title>Locadora K7</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?php include "./partials/cabecalho.php" ?>
+  <title>Locadora K7</title>
 </head>
+
 <body>
 
   <nav class="nav-extended blue lighten-3">
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right">
         <li><a href="galeria.php">Galeria</a></li>
-        <li class="active"><a href="cadastrar.php">Cadastrar</a></li>
+        <li class="active"><a href="cadastrar.php">Cadastrar filme</a></li>
+        <li><a href="cadastrar_funcionario.php">Cadastrar funcionário</a></li>
       </ul>
     </div>
     <div class="nav-header center">
@@ -78,4 +80,5 @@
   </div>
   <?php include "./partials/footer.php" ?>
 </body>
+
 </html>

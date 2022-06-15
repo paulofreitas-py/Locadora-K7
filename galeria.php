@@ -23,7 +23,8 @@ $filmes = $bd->query($sql);
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right">
         <li class="active"><a href="galeria.php">Galeria</a></li>
-        <li><a href="cadastrar.php">Cadastrar</a></li>
+        <li><a href="cadastrar.php">Cadastrar filme</a></li>
+        <li><a href="cadastrar_funcionario.php">Cadastrar funcionário</a></li>
       </ul>
     </div>
     <div class="nav-header center">
