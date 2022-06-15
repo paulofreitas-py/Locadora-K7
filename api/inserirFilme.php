@@ -1,5 +1,5 @@
 <?php
-
+phpinfo();
 $bd = new SQLite3("filmes.db");
 
 $titulo     = $bd->escapeString($_POST["titulo"]);

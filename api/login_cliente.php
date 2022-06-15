@@ -1,3 +1,6 @@
+<?php 
+phpinfo();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +35,7 @@
                         <a href="galeria.php" class="waves-effect waves-light btn blue">Confirmar</a>
                     </div>
                 </div>
-                <br><br>
+                <a href="cadastrar-login.php">Ainda não cadastrado ? Cadastre-se no K7</a><br><br>
             </div>
         </div>
     </div>
