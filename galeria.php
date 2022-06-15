@@ -56,6 +56,7 @@ $filmes = $bd->query($sql);
               <span class="card-title"><?= $filme["titulo"] ?></span>
 
               <p><?= $filme["sinopse"] ?></p>
+              <span>R$<?php $filme["preco"] ?></span>
             </div>
           </div>
         </div>

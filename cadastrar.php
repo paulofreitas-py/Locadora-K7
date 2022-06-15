@@ -53,7 +53,12 @@
                 <label for="nota">Nota</label>
               </div>
             </div>
-
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="preco" name="preco" type="number" step=".1" min=0 max=10 class="validate" required>
+                <label for="preco">Preço do filme</label>
+              </div>
+            </div>
             <!-- input capa -->
             <div class="file-field input-field">
               <div class="file-path-wrapper">

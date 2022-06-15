@@ -13,7 +13,8 @@ $sql = "CREATE TABLE filmes (
         titulo VARCHAR(200) NOT NULL,
         poster VARCHAR (200),
         sinopse TEXT,
-        nota DECIMAL(3,1)
+        nota DECIMAL(3,1),
+        preco DECIMAL(10,2)
     )
 ";
 
